@@ -1,0 +1,62 @@
+{
+    "name": "Micro",
+    "description": "Micro is simplifying cloud-native development",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/20078-micro.jpg",
+    "tags": [
+        "api provider",
+        "deployment",
+        "have api",
+        "microservices"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/micro\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Micro",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/20078-micro.jpg",
+            "humanURL": "https:\/\/micro.mu\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/micro-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/micro-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "https:\/\/blog.micro.mu\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/micro-2"
+        },
+        {
+            "type": "Email",
+            "url": "contact@micro.mu"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/micro"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/microhq"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/micro.mu\/"
+        }
+    ]
+}
