@@ -1,7 +1,25 @@
 aid: micro
 name: Micro
-description: Micro is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Micro is an open source project building a Go framework and runtime for
+  cloud-native services and AI agents. Its flagship library, go-micro (go-micro.dev/v6),
+  provides pluggable abstractions for service discovery, RPC transport, message brokering,
+  and configuration, and is described by the project as a Go agent harness and service
+  framework. Micro is developed in the open on GitHub under the micro organization.
+  The micro.dev site is a minimal landing page rather than a hosted developer portal,
+  and the project ships no public REST API, OpenAPI specification, developer console,
+  or SaaS control plane at this time.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://micro.dev/favicon.svg
 url: https://raw.githubusercontent.com/api-evangelist/micro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Open Source
+- Go
+- Microservices
+- Framework
+- Agents
+- Developer Tools
 apis: []
+common:
+- type: DomainSecurity
+  url: security/micro-domain-security.yml
+- type: Website
+  url: https://micro.dev
+- type: GitHubOrganization
+  url: https://github.com/micro
+- type: Packages
+  url: packages/micro-packages.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
