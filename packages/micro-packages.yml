@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: searched
+source: https://pkg.go.dev/go-micro.dev/v6
+packages:
+- language: go
+  registry: pkg.go.dev
+  name: go-micro.dev/v6
+  url: https://pkg.go.dev/go-micro.dev/v6
+  install: go get go-micro.dev/v6
+  official: true
+  repo: https://github.com/micro/go-micro
+  description: Go framework and agent/service harness providing pluggable service
+    discovery, RPC transport, message broker, and configuration abstractions. The
+    project's flagship first-party library (module path go-micro.dev/v6).

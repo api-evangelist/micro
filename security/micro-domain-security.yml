@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: micro.dev
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 26 11:26:16 2026 GMT
+  hsts: false
+domains:
+- domain: micro.dev
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
