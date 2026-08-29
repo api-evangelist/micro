@@ -8,6 +8,17 @@ description: Micro is an open source project building a Go framework and runtime
   The micro.dev site is a minimal landing page rather than a hosted developer portal,
   and the project ships no public REST API, OpenAPI specification, developer console,
   or SaaS control plane at this time.
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
